@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #101010;
+  font-family: 'VT323', monospace;
+}
+#gameContainer {
+  width: 600px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -300px;
+}
+#gameContainer #gameHeader {
+  height: 200px;
+}
+#gameContainer #gameBoard {
+  height: 600px;
+  box-sizing: border-box;
+}
+#gameContainer #gameBoard span {
+  border: 1px solid #333;
+  background-color: #333333;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 50px;
+  cursor: default;
+  user-select: none;
+}
+#gameContainer #gameBoard span.red {
+  color: red;
+}
+#gameContainer #gameBoard span.green {
+  color: green;
+}
+#gameContainer #gameBoard span.blue {
+  color: blue;
+}
+#gameContainer #gameBoard span.cyan {
+  color: cyan;
+}
+#gameContainer #gameBoard span.magenta {
+  color: magenta;
+}
+#gameContainer #gameBoard span.hl {
+  background-color: #3f3f3f;
+}
+#gameContainer #gameBoard span.selected {
+  transform: scale(1.5);
+  border: 1px solid yellow;
+}
+#gameContainer #gameBoard span.targeted {
+  border: 1px solid green;
+}
+#gameContainer #gameBoard span.matched {
+  background-color: darkred;
+}
+#gameContainer #gameBoard span.checking {
+  border: 1px solid white;
+}

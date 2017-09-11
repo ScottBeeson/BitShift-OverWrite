@@ -1,0 +1,56 @@
+@cellCount: 10; //todo: eventually replace the css below with easily modifiable values for adjusting board size
+
+
+body, html {
+	height: 100%; padding: 0; margin: 0; background-color: #101010;
+	font-family: 'VT323', monospace;
+}
+#gameContainer {
+	width: 600px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -300px;
+	#gameHeader {
+		height: 200px;
+	}
+	#gameBoard {
+		height: 600px;
+		box-sizing: border-box;
+		span {
+			border: 1px solid #333;
+			background-color: #333333;
+			box-sizing: border-box;
+			display: inline-block;
+			width: 60px; height: 60px;
+			line-height: 60px;
+			text-align: center;
+			vertical-align: middle;
+			font-size: 50px;
+			cursor: default;
+			user-select: none;
+			&.red {color: red;}
+			&.green {color: green;}
+			&.blue {color: blue;}
+			&.cyan {color: cyan;}
+			&.magenta {color: magenta;}
+			&.hl {
+				background-color: #3f3f3f;
+			}
+			&.selected {
+				transform: scale(1.5);
+				border: 1px solid yellow;
+			}
+			&.targeted {
+				border: 1px solid green;
+			}
+			&.matched {
+				background-color: darkred;
+			}
+			&.checking {
+				border: 1px solid white;
+			}
+		}
+	}
+
+}
