@@ -65,3 +65,6 @@ html {
 #gameContainer #gameBoard span.checking {
   border: 1px solid white;
 }
+#gameContainer #gameBoard span.current {
+  border: 2px solid blue;
+}
