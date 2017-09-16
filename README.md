@@ -8,7 +8,7 @@
 ## Mechanics
  - Multiple Modes
    - Shift: "Twin-stick" movement similar to 10,000,000 or You Must Build A Boat (see http://eightyeightgames.com)
-   - Swap: Swapping tiles a la Bejeweled
+   - Swap: Swapping tiles a la Bejeweled (ie Casual, either no timer or no drain motifier)
    - Switch: ???
  - match bits into nibbles or bytes
  - match nibbles into bytes
