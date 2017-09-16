@@ -8,8 +8,12 @@
 ## Mechanics
  - Multiple Modes
    - Shift: "Twin-stick" movement similar to 10,000,000 or You Must Build A Boat (see http://eightyeightgames.com)
-   - Swap: Swapping tiles a la Bejeweled (ie Casual, either no timer or no drain motifier)
-   - Switch: ???
+     - This is the primary mode and is more fast paced than the remaining two.  
+     - Includes faster battery drain with frantic movements, ie guessing.
+   - Swap: Swapping tiles a la Bejeweled.
+     - aka "easy" mode?
+   - Switch: Switch tiles from anywhere on the board.
+     - aka "Casual" mode.  You are plugged in (no timer)?
  - match bits into nibbles or bytes
  - match nibbles into bytes
  - Write bytes to hard drive
@@ -18,8 +22,6 @@
      - Manual key activation? With penalty?
      - Matching randomly dropped "save" tiles?
      - Tabbing to a separaate HDD matching board?
- - Battery as timer
- - Battery drains faster with more utilization (ie frantic, desperate movement)
 
 
 ## Questions
